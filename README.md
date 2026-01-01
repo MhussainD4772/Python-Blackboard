@@ -1,9 +1,5 @@
-<h1 align="center"> My Python Blackboard 🐍 🖥️</h1>
+<h1 align="center"> My Python NoteBook 🐍 🖥️</h1>
 
 <p align = "center">
-  I am going to use this daily as my python code blackboard. I will do few tasks and bonus problems given to me by chatgpt. Each task will be 10 points and bons problems 5 points.
+  This repo is for my daily python practice. This is what i like doing in my free time, while i am watching sports on my televison, write python code with logic to improve my muscle memory and ability to think better and faster in python. :D
   </p>
-
-<p align = "center">
-  My goal is to gain 100000 points and become a pro python coder.
-</p>
