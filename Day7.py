@@ -28,8 +28,63 @@
 
 # =============================
 
+# nums = [2, 5, 8, 3, 6]
+
+# counter = 0
+
+# for n in nums:
+#     if n % 2 == 0:
+#         counter += 1
+# print(counter)
 
 
-    
+# =============================
+
+# nums = [1, 4, 7, 10]
+
+# total = 0
+
+# for n in nums:
+#     total += n
+# print(total)
 
 
+ # =============================   
+
+# nums = [3, 9, 2, 7, 5]
+
+# maximum = nums[0]
+
+# for n in nums:
+#     if n > maximum:
+#         maxium = n
+# print(maximum)
+
+ # =============================  
+
+# nums = [4, 11, 6, 9, 2, 15]
+
+# count = 0
+
+# for n in nums:
+#     if n > 5:
+#         count+=1
+# print(count)
+
+# =============================  
+
+
+
+nums = [3, 12, 7, 20, 5, 18, 1]
+
+even_sum = 0
+odd_sum = 0
+
+for n in nums:
+    if n % 2 == 0:
+        even_sum += n
+    else:
+        odd_sum += n
+
+print(even_sum)
+print(odd_sum)
