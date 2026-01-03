@@ -1,7 +1,7 @@
-# nums = (0, 1, 2, 3)
+nums = (0, 1, 2, 3)
 
-# for num in nums:
-#     print(num)
+for num in nums:
+    print(num)
 
 count = 1
 
