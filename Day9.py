@@ -7,24 +7,25 @@ for n in nums:
         count[n] += 1
     else:
         count[n] = 1
-# print(count)
+print(count)
+print()
 
 
 # =======================================
 
-# nums = [4, 5, 6, 5, 4, 3, 4]
+nums = [4, 5, 6, 5, 4, 3, 4]
 
-# count = {}
+count = {}
 
-# for n in nums:
-#     if n in count:
-#         count[n] += 1
-#     else:
-#         count[n] = 1
+for n in nums:
+    if n in count:
+        count[n] += 1
+    else:
+        count[n] = 1
 
-# for num, c in count.items():
-#     if c > 1:
-#         print(num)
+for num, c in count.items():
+    if c > 1:
+        print(num)
 
 
 # =======================================
@@ -40,13 +41,22 @@ for n in nums:
     else:
         count[n] = 1
 
+max_count = 0
+max_num = None
+
 for num, c in count.items():
-    if c > max_num:
+    if c > max_count:
+        max_count = c
         max_num = num
+
 print(max_num)
 
 
 # =======================================
+
+
+
+
 
 
 
