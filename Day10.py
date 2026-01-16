@@ -38,6 +38,7 @@ for i in s:
         seen[i] +=1
     else:
         seen[i] = 1
+print(seen)
 
 for i in s:
     if seen[i] == 1:
