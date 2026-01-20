@@ -13,7 +13,17 @@ for ch in s:
 
 #=======================================>
 
-s = "abcaabcd"
+s = "aabbbcbcd"
 
+seen = {}
 
+for i in s:
+    if i not in seen:
+        seen[i] = 1
+    else:
+        seen[i] += 1
+        print(i)
+        break
+
+    
         
